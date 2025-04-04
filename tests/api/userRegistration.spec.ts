@@ -100,7 +100,7 @@ test.describe('User Registration API Tests', () => {
     });
 
     /**
-     * Test Case: Attempt to create an account with an invalid password format
+     * TC-05: Attempt to create an account with an invalid password format
      *
      * - Uses a weak password that does not meet security requirements.
      * - Expects a 400 response status.
