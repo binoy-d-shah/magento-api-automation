@@ -1,0 +1,31 @@
+{
+  "name": "magento-api-automation",
+  "version": "1.0.0",
+  "description": "API test automation for Magento Software Testing Board using Cypress. Covers authentication, product management, cart operations, checkout, and payment API testing.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binoy-d-shah/magento-api-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binoy-d-shah/magento-api-automation/issues"
+  },
+  "homepage": "https://github.com/binoy-d-shah/magento-api-automation#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@faker-js/faker": "^9.6.0",
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0",
+    "@typescript-eslint/eslint-plugin": "^8.29.0",
+    "@typescript-eslint/parser": "^8.29.0",
+    "globals": "^16.0.0",
+    "typescript-eslint": "^8.29.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
