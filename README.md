@@ -1,4 +1,4 @@
-# Playwright API Testing with TypeScript
+# Magento API Testing with TypeScript
 
 This repository contains automated API tests for Magento's user management system using Playwright and TypeScript. It demonstrates best practices for API testing, including reusable functions, test data generation, and error handling.
 
