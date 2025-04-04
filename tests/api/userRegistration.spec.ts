@@ -25,7 +25,7 @@ test.describe('User Registration API Tests', () => {
     });
 
     /**
-     * Test Case: Successfully create a new customer account
+     * TC-01: Successfully create a new customer account
      *
      * - Sends a request with valid customer details.
      * - Expects a 200 response status.
@@ -50,7 +50,7 @@ test.describe('User Registration API Tests', () => {
     });
 
     /**
-     * Test Case: Attempt to create an account with an already registered email
+     * TC-02: Attempt to create an account with an already registered email
      *
      * - Uses an existing email for registration.
      * - Expects a 400 response status.
@@ -66,7 +66,7 @@ test.describe('User Registration API Tests', () => {
     });
 
     /**
-     * Test Case: Attempt to create an account with missing required fields
+     * TC-03: Attempt to create an account with missing email address
      *
      * - Sends a request without an email field.
      * - Expects a 400 response status.
@@ -82,7 +82,7 @@ test.describe('User Registration API Tests', () => {
     });
 
     /**
-     * Test Case: Attempt to create an account with an invalid email format
+     * TC-04: Attempt to create an account with an invalid email format
      *
      * - Uses an incorrectly formatted email.
      * - Expects a 400 response status.

@@ -34,7 +34,7 @@ test.describe('User Profile Management API Tests', () => {
     });
 
     /**
-     * Test Case: Retrieve User Profile Successfully
+     * TC-10: Retrieve User Profile Successfully
      * 
      * - Sends a request to fetch the user profile using a valid token.
      * - Expects a 200 response status.
@@ -52,7 +52,7 @@ test.describe('User Profile Management API Tests', () => {
     });
 
     /**
-     * Test Case: Unauthorized Access with Invalid Token
+     * TC-11: Unauthorized Access with Invalid Token
      * 
      * - Sends a request with an invalid authentication token.
      * - Expects a 401 response status.
@@ -62,5 +62,8 @@ test.describe('User Profile Management API Tests', () => {
 
         const response = await getUserProfile(apiContext, config.baseUrl, 'invalidToken');
         expect(response.status()).toBe(401);
+
+        const responseBody = await response.json();
+        expect(responseBody.message).toContain('The consumer isn\'t authorized to access %resources.');
     });
 });

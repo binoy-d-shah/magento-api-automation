@@ -27,7 +27,7 @@ test.describe('User Login API Tests', () => {
     });
 
     /**
-     * Test Case: Successful Login with Valid Credentials
+     * TC-06: Successful Login with Valid Credentials
      * 
      * - Sends a login request using a valid email and password.
      * - Expects a 200 response status.
@@ -42,7 +42,7 @@ test.describe('User Login API Tests', () => {
     });
 
     /**
-     * Test Case: Login Failure with Incorrect Password
+     * TC-07: Login Failure with Incorrect Password
      * 
      * - Sends a login request with the correct email but an incorrect password.
      * - Expects a 401 response status.
@@ -57,7 +57,7 @@ test.describe('User Login API Tests', () => {
     });
 
     /**
-     * Test Case: Login Failure with Unregistered Email
+     * TC-08: Login Failure with Unregistered Email
      * 
      * - Attempts to log in using an email that is not registered in the system.
      * - Expects a 401 response status.
@@ -72,7 +72,7 @@ test.describe('User Login API Tests', () => {
     });
 
     /**
-     * Test Case: Login Failure with Empty Credentials
+     * TC-09: Login Failure with Empty Credentials
      * 
      * - Attempts to log in with an empty email and password.
      * - Expects a 400 response status.
