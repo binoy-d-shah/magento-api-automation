@@ -27,7 +27,7 @@ Before you begin, ensure that you have the following installed:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/magento-api-automation.git
+git clone https://github.com/binoy-d-shah/magento-api-automation.git
 cd magento-api-automation
 ```
 
