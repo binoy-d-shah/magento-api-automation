@@ -10,6 +10,7 @@ This repository contains automated API tests for Magento's user management syste
     - Customer Registration
     - User Login
     - User Profile Management
+- **Linting**: ESLint for code quality and style enforcement
 - **Test Data Generation**: Faker.js for generating random user data
 - **Test Execution**: Run tests using Playwright Test Runner
 
@@ -62,6 +63,19 @@ ADMIN_TOKEN=your_admin_token_here
 ```
 
 Replace `your_admin_token_here` with your actual admin token from Magento.
+
+3. Linting Setup
+
+This project uses ESLint to ensure code quality and maintain coding standards.
+
+- **Install ESLint dependencies:** Already covered in npm install.
+- **Run ESLint:** You can run ESLint manually using the following command:
+
+```bash
+npx eslint . --ext .ts
+```
+
+- **Automatically Fix Linting Issues:** You can automatically fix linting issues on file save in VSCode by enabling the eslint.autoFixOnSave setting in VSCode settings.
 
 ### 4. Run Tests
 
