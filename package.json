@@ -16,14 +16,15 @@
   },
   "homepage": "https://github.com/binoy-d-shah/magento-api-automation#readme",
   "devDependencies": {
-    "@eslint/js": "^9.23.0",
+    "@eslint/js": "^9.24.0",
     "@faker-js/faker": "^9.6.0",
     "@playwright/test": "^1.51.1",
     "@types/node": "^22.14.0",
-    "@typescript-eslint/eslint-plugin": "^8.29.0",
-    "@typescript-eslint/parser": "^8.29.0",
+    "@typescript-eslint/eslint-plugin": "^8.29.1",
+    "@typescript-eslint/parser": "^8.29.1",
+    "eslint": "^9.24.0",
     "globals": "^16.0.0",
-    "typescript-eslint": "^8.29.0"
+    "typescript-eslint": "^8.29.1"
   },
   "dependencies": {
     "dotenv": "^16.4.7"
