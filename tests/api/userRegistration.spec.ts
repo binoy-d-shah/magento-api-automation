@@ -19,7 +19,7 @@ test.describe('User Registration API Tests', () => {
     /**
      * Before all tests, set up an API request context and generate a random test user.
      */
-    test.beforeAll(async ({ playwright }) => {
+    test.beforeAll(async () => {
         apiContext = await request.newContext();
         randomUser = generateRandomUser();
     });

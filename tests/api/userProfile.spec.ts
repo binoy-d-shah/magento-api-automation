@@ -19,7 +19,7 @@ test.describe('User Profile Management API Tests', () => {
      * Before all tests, set up an API request context, generate a test user,
      * register the user, and retrieve an authentication token.
      */
-    test.beforeAll(async ({ playwright }) => {
+    test.beforeAll(async () => {
         apiContext = await request.newContext();
         testUser = generateRandomUser();
         

@@ -18,7 +18,7 @@ test.describe('User Login API Tests', () => {
      * Before all tests, create an API request context and register a new test user.
      * This user will be used for login validation tests.
      */
-    test.beforeAll(async ({ playwright }) => {
+    test.beforeAll(async () => {
         apiContext = await request.newContext();
         testUser = generateRandomUser();
         
