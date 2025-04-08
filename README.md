@@ -94,7 +94,6 @@ Here’s an overview of the project structure:
 │   ├── userProfile.spec.ts    # Test cases for user profile management
 │   ├── userRegistration.spec.ts  # Test cases for user registration
 ├── .env                       # Stores environment-specific variables like base URL and token
-├── .eslintrc.json             # ESLint configuration file
 ├── package.json               # Project dependencies and scripts
 ├── playwright.config.ts       # Playwright configuration file
 └── README.md                  # Project documentation
