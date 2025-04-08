@@ -90,7 +90,13 @@ This will execute all the test cases in the project.
 - **Run Specific Test**: You can also run a specific test by specifying its file:
 
 ```bash
-npx playwright test path/to/test-file.ts
+npx playwright test tests/api/userLogin.spec.ts
+```
+
+- **Generate HTML report**:
+
+```bash
+npx playwright show-report
 ```
 
 ### 5. Code Structure
