@@ -118,9 +118,7 @@ The tests are organized into different suites based on the API being tested:
 
 2. **Test Data Generation:** faker.js is used to generate random user data for each test run to ensure variability and test coverage.
 
-3. **ESLint:** Configured for TypeScript with custom rules to maintain code quality.
-
-4. **Documentation:** Each function and test is documented using JSDoc comments for clarity and ease of understanding.
+3. **Documentation:** Each function and test is documented using JSDoc comments for clarity and ease of understanding.
 
 ### 8. Additional Resources
 
